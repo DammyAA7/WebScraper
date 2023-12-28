@@ -60,5 +60,5 @@ def scrape_and_update_url(base_url, page_number, skip_value):
             break
 
 # Example usage:
-base_url = "https://shop.supervalu.ie/sm/delivery/rsid/5550/categories/frozen-foods/frozen-fish-%26-seafood-id-O200350"
+base_url = "https://shop.supervalu.ie/sm/delivery/rsid/5550/categories/chilled-food/soup-id-O200215"
 scrape_and_update_url(base_url, page_number=1, skip_value=0)
