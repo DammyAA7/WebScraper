@@ -21,6 +21,3 @@ for product in products:
 
 
     print(f'"{title}","{price}","{priceper}","{image_url}"')
-
-
-s
