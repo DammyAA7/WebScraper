@@ -60,6 +60,6 @@ def extract_data_from_url(url, output_file='output.csv'):
 
 
 # Specify the output file path if you want to use a different name/location
-output_file_path = 'water.csv'
-url = 'https://www.tesco.ie/groceries/en-IE/shop/drinks/water/all'
+output_file_path = 'finestfoodcupboard.csv'
+url = 'https://www.tesco.ie/groceries/en-IE/shop/tesco-finest/finest-food-cupboard/all'
 extract_data_from_url(url, output_file_path)
