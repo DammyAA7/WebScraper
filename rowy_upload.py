@@ -1,3 +1,4 @@
+#cd C:\Program Files\Google\Chrome\Application
 #chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\dammy.OLUWADAMILOLA\VS Developer\localhost"
 
 from selenium import webdriver
@@ -18,6 +19,11 @@ options.add_experimental_option("debuggerAddress","localhost:9222")
 driver = webdriver.Chrome(options=options)
 
 driver.get(url)
+
+time.sleep(8)
+driver.find_element(By.XPATH,"//button[text()='Setup']").click()
+time.sleep(5)
+driver.find_element(By.XPATH,"//div[text()='All Deliveries']").click()
 
 time.sleep(200)
 
